@@ -15,13 +15,12 @@ function nowServing(currentLine){
 
 function currentLine (array){
    var empty = [];
-  if(currentLine.length !== 0){
+  if(currentLine.length === 0){
+    return "The line is currently empty.";
+} else {
     for (var i = 0; i<array.length; i++){
    empty.push(" "+ (i+1) +". " + array[i]);
 }
 return "The line is currently:" + empty;
-}
-if (currentLine.length === 0){
-  return "The line is currently empty.";
 }
 }
