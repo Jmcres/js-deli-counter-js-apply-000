@@ -7,7 +7,7 @@ function takeANumber(current, customer){
 function nowServing(currentLine){
   if(currentLine.length !== 0){
     var person = currentLine.shift();
-    return 
+    return "Currently serving "+ person +"."; 
   } else {
     return "There is nobody waiting to be served!";
   }
