@@ -16,6 +16,9 @@ function nowServing(currentLine){
 function currentLine (array){
   if(currentLine.length !== 0){
     var empty = [];
-    for (var i = 0; )
+    for (var i = 0; i<array.length; i++){
+   empty.push(" "+ (i+1) +". " + array[i]);
+ }
+ 
   }
 }
