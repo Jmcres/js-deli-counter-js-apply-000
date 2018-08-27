@@ -13,3 +13,6 @@ function nowServing(currentLine){
   }
 }
 
+function currentLine (array){
+  if(currentLine.)
+}
