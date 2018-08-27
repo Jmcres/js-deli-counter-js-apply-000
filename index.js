@@ -14,5 +14,8 @@ function nowServing(currentLine){
 }
 
 function currentLine (array){
-  if(currentLine.)
+  if(currentLine.length !== 0){
+    var empty = [];
+    for (var i = 0; )
+  }
 }
